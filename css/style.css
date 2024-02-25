@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+/* **************************Start Look ******************************* */
+.lock-pvc ul{
+list-style-type: none;
+}
+.lock-pvc .lc{
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+background-color: red;
+}
+/* ************************** our-door od ******************************* */
+.our-door .od h4{
+    padding: 40px;
+    background-image: linear-gradient(red, yellow);
+
+    border-radius: 50px;
+}
+.our-door .od-c h4{
+    padding: 40px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+/* **************************Responcive ******************************* */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .where-text h3{
+        font-size: 18px;
+    }
+       .where-text p{
+font-size: 12px;
+       }
+
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .where-text h3{
+    font-size: 27px;
+}
+   .where-text p{
+font-size: 16px;
+   }
+   .why-should .shu-text img{
+width: 100%;
+height: 600px;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
